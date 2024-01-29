@@ -3,4 +3,5 @@
 - запустить контейнер командой:
  `sudo docker compose up -d`
 - создать супер пользователя командой:
-`sudo docker compose run web python manage.py createsuperuser`   
+`sudo docker compose run web python manage.py createsuperuser`
+- запуск тестов `sudo docker compose run web python manage.py test recipe`
